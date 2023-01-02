@@ -1,20 +1,20 @@
 
-let products = {
-    productName : ["keyboard","Mouse","printr","Headphone"],
-    productsDesc : "dshghvbfjf",
-    productPrice : 10000,
-    productTax : 132,
-    ProductColour :{
-        keyboardColour:["Red","Blue","Black"],
-        MouseColour:["Yellow","White","Pink"],
-        PrinterColour:["Gry","Orange","Green"],
-        HeadphoneColour:["Violet","Purple","Tomato"]
-    },
-    add : function(productPrice,productTax){
-        let result = productPrice + productTax;
-        console.log(result);
-    }   
-}
+// let products = {
+//     productName : ["keyboard","Mouse","printr","Headphone"],
+//     productsDesc : "dshghvbfjf",
+//     productPrice : 10000,
+//     productTax : 132,
+//     ProductColour :{
+//         keyboardColour:["Red","Blue","Black"],
+//         MouseColour:["Yellow","White","Pink"],
+//         PrinterColour:["Gry","Orange","Green"],
+//         HeadphoneColour:["Violet","Purple","Tomato"]
+//     },
+//     add : function(productPrice,productTax){
+//         let result = productPrice + productTax;
+//         console.log(result);
+//     }   
+// }
 
 // console.log(products.productsName)
 // products.add(products.productPrice,products.productTax)
