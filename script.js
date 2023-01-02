@@ -469,46 +469,46 @@
 
 
 
-let products = [
-    ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81dLH5W903L._AC_UY218_.jpg","SteelSeries Apex 3 TKL RGB Gaming Keyboard – Tenkeyless Compact Form Factor - 8-Zone RGB Illumination – IP32 Water & Dust Resistant – Whisper Quiet Gaming Switch – Gaming Grade",8270,2.5],
+// let products = [
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/81dLH5W903L._AC_UY218_.jpg","SteelSeries Apex 3 TKL RGB Gaming Keyboard – Tenkeyless Compact Form Factor - 8-Zone RGB Illumination – IP32 Water & Dust Resistant – Whisper Quiet Gaming Switch – Gaming Grade",8270,2.5],
 
-    ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51R2h3XTfgL._AC_UY218_.jpg","Razer Viper V2 Pro HyperSpeed Wireless Gaming Mouse: 59g Ultra-Lightweight - Optical Switches Gen-3 - 30K Optical Sensor - On-Mouse DPI Controls - 80hr Battery - USB Type C",9575,4.4],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51R2h3XTfgL._AC_UY218_.jpg","Razer Viper V2 Pro HyperSpeed Wireless Gaming Mouse: 59g Ultra-Lightweight - Optical Switches Gen-3 - 30K Optical Sensor - On-Mouse DPI Controls - 80hr Battery - USB Type C",9575,4.4],
     
-    ["https://m.media-amazon.com/images/I/81V01sm1kaL._AC_UY218_.jpg","SteelSeries Arctis 1 Wired Gaming Headset – Detachable ClearCast Microphone – Lightweight Steel-Reinforced Headband – For PS5, PS4, PC, Xbox, Nintendo Switch, Mobile",5455,5.4],
+//     ["https://m.media-amazon.com/images/I/81V01sm1kaL._AC_UY218_.jpg","SteelSeries Arctis 1 Wired Gaming Headset – Detachable ClearCast Microphone – Lightweight Steel-Reinforced Headband – For PS5, PS4, PC, Xbox, Nintendo Switch, Mobile",5455,5.4],
 
-    ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61bbIn9rXGL._AC_SX425_.jpg","GTRACING Gaming Chair with Footrest Speakers Video Game Chair Bluetooth Music Heavy Duty Ergonomic Computer Office Desk Chair Red",7500,3.7],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61bbIn9rXGL._AC_SX425_.jpg","GTRACING Gaming Chair with Footrest Speakers Video Game Chair Bluetooth Music Heavy Duty Ergonomic Computer Office Desk Chair Red",7500,3.7],
 
-    ["https://m.media-amazon.com/images/I/71XBYRvYHmL._AC_SX425_.jpg","Apple iPad (2018 Model) with Wi-Fi only 32GB Apple 9.7in iPad - Space Gray (Renewed)",75000,1.7],
+//     ["https://m.media-amazon.com/images/I/71XBYRvYHmL._AC_SX425_.jpg","Apple iPad (2018 Model) with Wi-Fi only 32GB Apple 9.7in iPad - Space Gray (Renewed)",75000,1.7],
 
-    ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71iNwni9TsL._AC_SX425_.jpg","Logitech C920x HD Pro Webcam, Full HD 1080p/30fps Video Calling, Clear Stereo Audio, HD Light Correction, Works with Skype, Zoom, FaceTime, Hangouts, PC/Mac/Laptop/Macbook/Tablet - Black",2300,6.2],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71iNwni9TsL._AC_SX425_.jpg","Logitech C920x HD Pro Webcam, Full HD 1080p/30fps Video Calling, Clear Stereo Audio, HD Light Correction, Works with Skype, Zoom, FaceTime, Hangouts, PC/Mac/Laptop/Macbook/Tablet - Black",2300,6.2],
 
-    ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/5194ncpe5IL._AC_UY218_.jpg","Fitbit Versa 2 Health and Fitness Smartwatch with Heart Rate, Music, Alexa Built-In, Sleep and Swim Tracking, Black/Carbon, One Size (S and L Bands Included)",8000,2.7],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/5194ncpe5IL._AC_UY218_.jpg","Fitbit Versa 2 Health and Fitness Smartwatch with Heart Rate, Music, Alexa Built-In, Sleep and Swim Tracking, Black/Carbon, One Size (S and L Bands Included)",8000,2.7],
 
-    ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/713iwR5VZdL._AC_SX425_.jpg","GHome Smart TV LED Backlight, 9.2ft WiFi Strip Light Compatible with Alexa & Google Assistant, App Control, Music Sync 16 Million RGB Color Changing Dimmable for 30-60in TV PC, Home Lighting Decor",9500,3.1],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/713iwR5VZdL._AC_SX425_.jpg","GHome Smart TV LED Backlight, 9.2ft WiFi Strip Light Compatible with Alexa & Google Assistant, App Control, Music Sync 16 Million RGB Color Changing Dimmable for 30-60in TV PC, Home Lighting Decor",9500,3.1],
 
-    ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71L2otQRshL.__AC_SX300_SY300_QL70_FMwebp_.jpg","JBL Tune 225TWS True Wireless Earbud Headphones - JBL Pure Bass Sound, Bluetooth, 25H Battery, Dual Connect, Native Voice Assistant (Black)",4100,7.0],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71L2otQRshL.__AC_SX300_SY300_QL70_FMwebp_.jpg","JBL Tune 225TWS True Wireless Earbud Headphones - JBL Pure Bass Sound, Bluetooth, 25H Battery, Dual Connect, Native Voice Assistant (Black)",4100,7.0],
 
-    ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41+qZ2nsllL._AC_UY218_.jpg","Amazon eero Pro 6E mesh Wi-Fi router | Fast and reliable gigabit + speeds | connect 100+ devices | Coverage up to 2,000 sq. ft. | 2022 release",9500,8.4],
+//     ["https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41+qZ2nsllL._AC_UY218_.jpg","Amazon eero Pro 6E mesh Wi-Fi router | Fast and reliable gigabit + speeds | connect 100+ devices | Coverage up to 2,000 sq. ft. | 2022 release",9500,8.4],
 
-]
+// ]
 
- console.log(products)
+//  console.log(products)
 
-// document.write(`<img src='${products[0][0]}'> <h1>${products[0][1]}</h1> <h3>${products[0][2]}</h3> <div>${products[0][3]}</div> <div>${products[0][4]}</div>`)
+// // document.write(`<img src='${products[0][0]}'> <h1>${products[0][1]}</h1> <h3>${products[0][2]}</h3> <div>${products[0][3]}</div> <div>${products[0][4]}</div>`)
 
-for(i=0; i < products.length; i++ ){
-    document.write
-    (`<div class=container>
-    <img src='${products[i][0]}' class=img1>
-    <div class=main> 
-    <h1 class=img2>${products[i][1]}</h1>
-    <h3 class=img3>${products[i][2]}</h3>
-    <div class=img4>${products[i][3]}</div>
-     <div class=img5>${products[i][4]}</div>
-     </div>
-     </div>`)
+// for(i=0; i < products.length; i++ ){
+//     document.write
+//     (`<div class=container>
+//     <img src='${products[i][0]}' class=img1>
+//     <div class=main> 
+//     <h1 class=img2>${products[i][1]}</h1>
+//     <h3 class=img3>${products[i][2]}</h3>
+//     <div class=img4>${products[i][3]}</div>
+//      <div class=img5>${products[i][4]}</div>
+//      </div>
+//      </div>`)
 
-}
+// }
 
 
 

@@ -57,15 +57,15 @@ let a = ["azan","zahid","ashraf","hanif"]
 //     console.log(i,k)
 // })
 
-a.forEach((i,k) => {
-    console.log(i,k)
-});
+// a.forEach((i,k) => {
+//     console.log(i,k)
+// });
 
-function add(){
-    function sub(num){
-}
+// function add(){
+//     function sub(num){
+// }
 
-}
+// }
 
 
 
